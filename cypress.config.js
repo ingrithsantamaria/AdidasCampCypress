@@ -2,7 +2,7 @@ const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://www.adidas.co",
+    // baseUrl: "https://www.adidas.co/",
     chromeWebSecurity: false,
     failOnStatusCode: false,
     setupNodeEvents(on, config) {
